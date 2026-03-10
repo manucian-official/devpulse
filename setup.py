@@ -1,15 +1,16 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 setup(
-    name="devpulse",
+    name="devpulse-tool",
     version="0.1.0",
-    description="AI-powered developer productivity CLI",
-    author="Manucian Official",
-    py_modules=["cli", "scanner", "analyzer", "dashboard", "ai_commit", "utils"],
+    description="AI-powered developer productivity analyzer",
+    author="manucian-official",
+    packages=find_packages(),
     install_requires=[],
     entry_points={
         "console_scripts": [
-            "devpulse=cli:main"
+            "devpulse=devpulse.cli:main"
         ]
     },
+    python_requires=">=3.8",
 )
