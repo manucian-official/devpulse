@@ -43,7 +43,11 @@ def main():
 
             # chỉ lấy diff file python
             diff = subprocess.check_output(
-                ["git", "diff", "--cached", "--", "*.py"],
+                diff = subprocess.check_output(
+    ["git", "diff", "--cached"],
+    encoding="utf-8",
+    errors="ignore"
+),
                 encoding="utf-8",
                 errors="ignore"
             )
