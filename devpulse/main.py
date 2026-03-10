@@ -1,11 +1,11 @@
-<<<<<<< HEAD
+
 import sys
 import subprocess
 
-from scanner import scan_files
-from analyzer import analyze_code
-from dashboard import dashboard
-from ai_commit import generate_commit
+from devpulse.scanner import scan_files
+from devpulse.analyzer import analyze_code
+from devpulse.dashboard import dashboard
+from devpulse.ai_commit import generate_commit
 
 
 def main():
@@ -74,11 +74,11 @@ def main():
 
 if __name__ == "__main__":
     main()
-=======
+
 import sys
-from scanner import scan_files
-from analyzer import analyze_code
-from utils import ascii_chart
+from devpulse.scanner import scan_files
+from devpulse.analyzer import analyze_code
+from devpulse.utils import ascii_chart
 
 def main():
     if len(sys.argv) < 2:
@@ -106,4 +106,4 @@ def main():
 
 if __name__ == "__main__":
     main()
->>>>>>> 5213bfe3a19e1e0d02a98fbbffca7d4eeddacd5f
+
