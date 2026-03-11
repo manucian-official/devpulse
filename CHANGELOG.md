@@ -18,3 +18,11 @@ Added
 
 - AI commit generator
 - dashboard module
+
+---
+
+## v0.2.1
+
+Hot fix
+
+-Little fix version to smooth action
