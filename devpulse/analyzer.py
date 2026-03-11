@@ -1,6 +1,6 @@
-<<<<<<< HEAD
+
 from collections import defaultdict
-from utils import detect_language, count_todos
+from devpulse.utils import detect_language, count_todos
 
 COMPLEX_KEYWORDS = [
     "if","for","while","switch","case","try","except","catch"
@@ -71,9 +71,9 @@ def analyze_code(files):
         result["todos"] += text.lower().count("todo")
 
     return result
-=======
+
 from collections import defaultdict
-from utils import detect_language, count_todos
+from devpulse.utils import detect_language, count_todos
 
 def analyze_code(files):
 
@@ -100,4 +100,3 @@ def analyze_code(files):
         "todos":todos,
         "largest_file":largest_file
     }
->>>>>>> 5213bfe3a19e1e0d02a98fbbffca7d4eeddacd5f
