@@ -6,10 +6,10 @@ The following table indicates which versions of this project currently receive s
 
 | Version | Supported |
 | ------- | --------- |
-| 5.1.x   | :white_check_mark: Supported |
-| 5.0.x   | :x: Not supported |
-| 4.0.x   | :white_check_mark: Supported |
-| < 4.0   | :x: Not supported |
+| v1.0.0   | :white_check_mark: Supported |
+| v0.2.1  | :x: Not supported |
+| v0.2.0  | :white_check_mark: Supported |
+| < 0.2.0   | :x: Not supported |
 
 ### Support Policy
 
